@@ -1,0 +1,28 @@
+.container {
+ max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 8rem;
+}
+
+.hero-text {
+  padding: 1em 1em;
+}
+
+
+@media screen and (max-width: 768px) {
+  .hero-text {
+    padding: 1em 1em;
+    
+    p {
+      margin-top: 1rem;
+    }
+  }
+}
