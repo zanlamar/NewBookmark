@@ -1,0 +1,24 @@
+<section class="features">
+  <div class="container">
+    <app-features-header
+      [title]="sectionTitle"
+      [subtitle]="subtitle">
+    </app-features-header>
+
+    <app-tab-nav
+      [tabs]="tabs"
+      [activeTabId]="activeTabId"
+      (tabChange)="onTabChange($event)">
+    </app-tab-nav>
+    
+    <app-features-content
+      [imageSrc]="currentFeature.imageSrc"
+      [imageAlt]="currentFeature.imageAlt"
+      [title]="currentFeature.title"
+      [description]="currentFeature.description"
+      [buttonText]="currentFeature.buttonText || 'More Info'"
+      [buttonHref]="currentFeature.buttonHref || '#'"
+      [showButton]="!!currentFeature.buttonText">
+    </app-features-content>
+  </div>
+ </section>
