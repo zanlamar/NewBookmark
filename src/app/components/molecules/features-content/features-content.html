@@ -1,0 +1,24 @@
+ <div class="feature-content">
+  <app-featureimage
+    [src]="imageSrc"
+    [alt]="imageAlt">
+  </app-featureimage>
+  
+  <div class="feature-text">
+    <app-heading 
+      [level]="2" 
+      [text]="title">
+    </app-heading>
+    
+    <app-text [content]="description"></app-text>
+    
+    @if (showButton) {
+      <app-button
+        variant="blue"
+        [href]="buttonHref"
+        [text]="buttonText"
+        additionalClasses="btn-none">
+      </app-button>
+    }
+  </div>
+ </div>
