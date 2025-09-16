@@ -16,6 +16,16 @@
   padding: 1em 1em;
 }
 
+.hero-buttons {
+margin-top: 2rem;
+display: flex;
+gap: 1rem;
+}
+
+.hero-image {
+  order: -1; 
+}
+
 
 @media screen and (max-width: 768px) {
   .hero-text {
