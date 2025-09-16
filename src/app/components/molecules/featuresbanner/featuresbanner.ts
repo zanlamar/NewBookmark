@@ -10,6 +10,8 @@ import { Subtitle } from '../../atoms/subtitle/subtitle';
   standalone: true
 })
 export class Featuresbanner {
-  @Input() title: string = '';
-  @Input() subtitle: string = '';
+  @Input() title: string = 'Features';
+  @Input() subtitle: string = 'Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.';
+  @Input() text: string = '';
+
 }

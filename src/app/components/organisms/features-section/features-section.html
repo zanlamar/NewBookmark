@@ -1,16 +1,16 @@
 <section class="features">
   <div class="container">
-    <app-heading
-      [title]="sectionTitle">
-    </app-heading>
-    <app-subtitle
-      [text]="subtitle">
-    </app-subtitle>
+    <app-features-header
+      [title]="sectionTitle"
+      [subtitle]="subtitle">
+    </app-features-header>
+
     <app-tab-nav
       [tabs]="tabs"
       [activeTabId]="activeTabId"
       (tabChange)="onTabChange($event)">
     </app-tab-nav>
+    
     <app-features-content
       [imageSrc]="currentFeature.imageSrc"
       [imageAlt]="currentFeature.imageAlt"

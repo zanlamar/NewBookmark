@@ -1,8 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { FeaturesHeader } from '../../molecules/features-header/features-header';
 import { TabNav } from '../../molecules/tabs-nav/tab-nav/tab-nav';
 import { FeaturesContent } from '../../molecules/features-content/features-content';
-import { Heading } from "../../atoms/heading/heading";
-import { Subtitle } from '../../atoms/subtitle/subtitle';
 
 interface FeatureTabData {
   id: string;
@@ -17,14 +16,13 @@ interface FeatureTabData {
 
 @Component({
   selector: 'app-features-section',
-  imports: [TabNav, FeaturesContent, Heading, Subtitle],
+  imports: [ FeaturesHeader, TabNav, FeaturesContent],
   templateUrl: './features-section.html',
   styleUrl: './features-section.css',
   standalone: true
-
-  
 })
-export class FeaturesSection {
+
+export class FeaturesSection implements OnInit{
   @Input() sectionTitle: string = 'Features';
   @Input() subtitle: string = 'Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.';  
   activeTabId: string = 'bookmarking';
@@ -35,7 +33,7 @@ export class FeaturesSection {
       tabText: 'Simple Bookmarking',
       title: 'Bookmark in one click',
       description: 'Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete',
-      imageSrc: './Recursos/Imagenes/illustration-features-tab-1.svg',
+      imageSrc: 'https://commons.wikimedia.org/wiki/File:Mariah_Carey_Library_of_Congress_2023_1_Cropped_2.pngg',
       imageAlt: 'Bookmarking feature',
       buttonText: 'More Info',
       buttonHref: '#'
@@ -45,7 +43,7 @@ export class FeaturesSection {
       tabText: 'Speedy Searching',
       title: 'Intelligent search',
       description: 'Our powerful search feature will help you find saved sites in no time at all. No need to trawl through al',
-      imageSrc: './Recursos/Imagenes/illustration-features-tab-2.svg',
+      imageSrc: './src/assets/images/illustration-features-tab-2.svg',
       imageAlt: 'Searching feature'
     },
     {
