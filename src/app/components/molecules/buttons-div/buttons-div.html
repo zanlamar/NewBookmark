@@ -1,0 +1,12 @@
+ <div class="hero-buttons">
+  @for (button of buttons; track button.text) {
+    <app-button 
+      [variant]="button.variant"
+      [href]="button.href"
+      [text]="button.text"
+      [additionalClasses]="button.additionalClasses || ''">
+    </app-button>
+  } @empty {
+    <p>No buttons available</p>
+  }
+ </div>

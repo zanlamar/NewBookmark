@@ -1,0 +1,13 @@
+.hero-buttons {
+font-size: 1.1rem;
+margin-top: 2rem;
+}
+
+.hero-buttons {
+justify-content: center;
+}
+
+.hero-buttons .btn {
+width: auto;
+padding: 0.9rem 0.7rem;
+}
