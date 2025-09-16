@@ -33,7 +33,7 @@ export class FeaturesSection implements OnInit{
       tabText: 'Simple Bookmarking',
       title: 'Bookmark in one click',
       description: 'Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete',
-      imageSrc: 'https://commons.wikimedia.org/wiki/File:Mariah_Carey_Library_of_Congress_2023_1_Cropped_2.pngg',
+      imageSrc: 'assets/images/illustration-features-tab-1.svg',
       imageAlt: 'Bookmarking feature',
       buttonText: 'More Info',
       buttonHref: '#'
@@ -43,7 +43,7 @@ export class FeaturesSection implements OnInit{
       tabText: 'Speedy Searching',
       title: 'Intelligent search',
       description: 'Our powerful search feature will help you find saved sites in no time at all. No need to trawl through al',
-      imageSrc: './src/assets/images/illustration-features-tab-2.svg',
+      imageSrc: 'assets/images/illustration-features-tab-2.svg',
       imageAlt: 'Searching feature'
     },
     {
@@ -51,7 +51,7 @@ export class FeaturesSection implements OnInit{
       tabText: 'Easy Sharing',
       title: 'Share your bookmarks',
       description: 'Easily share your bookmarks and collections with others. Create a shareable a link that you can send at', 
-      imageSrc: './Recursos/Imagenes/illustration-features-tab-3.svg',
+      imageSrc: 'assets/images/illustration-features-tab-3.svg',
       imageAlt: 'Sharing feature'
     }
   ];
