@@ -4,7 +4,9 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
   selector: 'app-tab-button',
   imports: [],
   templateUrl: './tab-button.html',
-  styleUrl: './tab-button.css'
+  styleUrl: './tab-button.css',
+  standalone: true,
+
 })
 export class TabButton {
   @Input() text: string = '';
