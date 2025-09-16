@@ -1,18 +1,25 @@
  <section class="hero">
-  <div class="container hero-grid">
-    <app-herobanner
-      [title]="title" 
-      [description]="description">
-    </app-herobanner>
-    
-    <app-hero-image
-      [imageSrc]="imageSrc" 
-      [imageAlt]="imageAlt">
-    </app-hero-image>
-    
-    <app-buttons-div
-      [buttons]="buttons">
-    </app-buttons-div>
-    
+  <div class="hero-grid">
+    <div class="hero-text">
+        <app-herobanner
+          [title]="title" 
+          [description]="description">
+        </app-herobanner>
+
+      <div class="hero-buttons">
+        <app-buttons-div
+        [buttons]="buttons">
+      </app-buttons-div>
+    </div>
   </div>
+  
+    <span class="hero-image">
+      <app-hero-image
+        [imageSrc]="imageSrc" 
+        [imageAlt]="imageAlt">
+      </app-hero-image>
+    </span>
+
+  </div>
+    
  </section>
