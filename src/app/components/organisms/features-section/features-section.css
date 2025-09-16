@@ -1,6 +1,13 @@
 .features {
   margin-top: 4em;
-  text-align: center;
+  /* text-align: center; */
+}
+
+.feature-content {
+display: flex;
+align-items: center;
+gap: 5rem;
+justify-content: center;
 }
 
 @media screen and (max-width: 768px) {

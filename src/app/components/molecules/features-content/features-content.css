@@ -14,9 +14,16 @@
   margin: 1em 0;
 }
 
-.features-features-h2 {
+.h2 {
 text-align: center;
 }
+
+.feature-image {
+margin-left: 4em;
+margin: 0 4%;
+}
+
+
 
 
 @media screen and (max-width: 768px) {
