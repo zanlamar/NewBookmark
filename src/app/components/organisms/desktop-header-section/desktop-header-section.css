@@ -12,6 +12,17 @@
  
 }
 
+.hamburger {
+    display: block;
+    position: absolute;
+    right: 2rem;
+    top: 1.5rem;
+}
+
+.mobile-menu-overlay {
+display: none;
+}
+
 @media screen and (max-width: 768px) {
     .nav-container {
     flex-direction: column;

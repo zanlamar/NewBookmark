@@ -8,70 +8,9 @@
   display: inline-block;
   box-shadow: rgba(0, 0, 0, 0.2) 0rem 0.3rem 0.6rem;
   margin: 0.75rem;
-}
-
-.btn-blue {
-  background-color: hsl(231, 69%, 60%);
-  color: white;
-  font-weight: 400;
-  border: 1px solid #ffffff00;
-}
-
-.btn-blue:hover {
-  background-color: white;
-  color: hsl(231, 69%, 60%);
-  border: 1px solid hsl(231, 69%, 60%);
-}
-
-.btn-light {
-  background-color: #f9f9f9;
-  color: #333;
-  border: 1px solid #ccc;
-  font-weight: 400;
-}
-  
-.btn-light:hover {
-  background-color: white;
-  color: rgb(54, 51, 51);
-  border: 1px solid rgb(54, 51, 51);
-}
-
-.btn-red {
-  background-color: hsl(0, 94%, 66%);
-  color: white;
-  font-size: 1.1rem;
-  text-transform: uppercase;
-  font-weight: 500;
-  width: 100px;
-  border: 1px solid #ffffff00;
-  text-align: center;
-}
-
-.btn-red:hover {
-  background-color: white;
-  color: hsl(0, 94%, 66%);
-  border: 1px solid hsl(0, 94%, 66%);
-}
-
-.download {
-  font-size: 14px;
-
-
-/* Estilos base para botones normales */
-.btn {
-  padding: 0.75rem 1.5rem;
-  border: none;
-  text-decoration: none;
-  font-weight: 600;
-  cursor: pointer;
-  border-radius: 5px;
-  display: inline-block;
-  box-shadow: rgba(0, 0, 0, 0.2) 0rem 0.3rem 0.6rem;
-  margin: 0.75rem;
   transition: all 0.3s ease;
 }
 
-/* Variantes de botones normales */
 .btn-blue {
   background-color: hsl(231, 69%, 60%);
   color: white;
@@ -91,7 +30,7 @@
   border: 1px solid #ccc;
   font-weight: 400;
 }
-  
+
 .btn-light:hover {
   background-color: white;
   color: rgb(54, 51, 51);
@@ -106,6 +45,7 @@
   font-weight: 500;
   width: 120px;
   border: 1px solid transparent;
+  text-align: center;
 }
 
 .btn-red:hover {
@@ -114,9 +54,6 @@
   border: 1px solid hsl(0, 94%, 66%);
 }
 
-/* Estilos específicos para navbar */
-
-/* Botón hamburguesa */
 .hamburger {
   display: none;
   font-size: 2rem;
@@ -136,7 +73,7 @@
   }
 }
 
-/* Botón cerrar menú móvil */
+/* Otros estilos... */
 .mobile-menu-close {
   background: none;
   border: none;
@@ -153,11 +90,6 @@
   transition: opacity 0.3s ease;
 }
 
-.mobile-menu-close:hover {
-  opacity: 0.7;
-}
-
-/* Botón login en menú móvil */
 .mobile-login-btn {
   background: none;
   border: 2px solid white;
@@ -173,30 +105,4 @@
   margin-bottom: 60px;
   transition: all 0.3s ease;
   width: 100%;
-}
-
-.mobile-login-btn:hover {
-  background: white;
-  color: #5267DF;
-}
-
-/* Clase auxiliar para downloads */
-.download {
-  font-size: 14px;
-}
-
-/* Evitar margin en contexto de navbar */
-.nav-menu .btn,
-.mobile-menu-content .btn {
-  margin: 0;
-}
-
-/* Botón disabled */
-button:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
-}
-
-button:disabled:hover {
-  opacity: 0.6;
 }
