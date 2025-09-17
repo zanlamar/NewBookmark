@@ -1,1 +1,12 @@
-<p>mobile-nav works!</p>
+<nav>
+      <ul class="nav-menu">
+        <li *ngFor="let link of navLinks">
+          <a [href]="link.href">{{ link.text }}</a>
+        </li>
+        <app-button
+          variant="red"
+          (onClick)="onLoginClick()">
+          Login
+        </app-button>
+      </ul>
+</nav>
