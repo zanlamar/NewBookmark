@@ -9,7 +9,7 @@ import { Component, Input } from '@angular/core';
 })
 
 export class Button {
-  @Input() variant: 'blue' | 'light' | 'red' = 'blue';
+  @Input() variant: 'blue' | 'light' | 'red' | 'hamburger' | 'close' | 'mobile-login' = 'red';
   @Input() href?: string;
   @Input() text: string = '';
   @Input() additionalClasses?: string = '';
