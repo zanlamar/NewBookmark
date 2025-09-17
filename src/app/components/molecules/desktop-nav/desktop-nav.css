@@ -1,0 +1,27 @@
+nav {
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  text-transform: uppercase;
+
+  li {
+    padding-top: 8px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #2b2b2b;
+    font-weight: 400;
+    transition: color 0.3s ease;
+
+    nav-menu:hover {
+      color: #a51616;
+    }
+  }
+}
