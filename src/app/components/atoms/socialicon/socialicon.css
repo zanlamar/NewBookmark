@@ -1,0 +1,12 @@
+.social-icon {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.social-icon:hover {
+  opacity: 0.7;
+  filter: brightness(0) saturate(100%) invert(20%) sepia(85%) saturate(6900%) hue-rotate(345deg) brightness(85%) contrast(100%);
+}

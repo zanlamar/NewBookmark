@@ -1,0 +1,20 @@
+<div class="container nav-container">
+    <app-logo
+        [src]="logoSrc"
+        [alt]="logoAlt"
+        logoClass="logo">
+    </app-logo>
+      
+    <!-- <app-button
+        variant="hamburger"
+        customClass="hamburger"
+        (onClick)="onHamburgerClick()">
+        ☰
+    </app-button> -->
+      
+    <app-desktop-nav
+        [navLinks]="navLinks"
+        (loginClick)="onLoginClick()">
+    </app-desktop-nav>
+    
+</div>

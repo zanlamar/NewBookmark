@@ -1,0 +1,29 @@
+.mobile-menu-nav {
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+.mobile-menu-nav li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.mobile-menu-nav li:first-child {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.mobile-menu-nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 25px 0;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+.mobile-menu-nav a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
