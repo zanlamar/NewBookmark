@@ -1,6 +1,6 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
-import { Button } from "../../atoms/button/button";
 import { CommonModule } from '@angular/common';
+import { Button } from "../../atoms/button/button";
 
 
 export interface NavLink {
@@ -10,7 +10,7 @@ export interface NavLink {
 
 @Component({
   selector: 'app-desktop-nav',
-  imports: [Button, CommonModule],
+  imports: [CommonModule, Button],
   templateUrl: './desktop-nav.html',
   styleUrl: './desktop-nav.css',
   standalone: true,
