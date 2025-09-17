@@ -16,7 +16,7 @@ export interface NavLink {
   standalone: true,
 })
 
-export class DesktopNavMoleculeComponent {
+export class DesktopNav {
   @Input() navLinks: NavLink[] = [];
   @Output() loginClick = new EventEmitter<void>();
 

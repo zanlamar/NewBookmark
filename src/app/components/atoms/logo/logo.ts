@@ -8,6 +8,7 @@ import { Component, Input } from '@angular/core';
   standalone: true
 })
 export class Logo {
-  @Input() src: string = "assets/images/logo.png";
-  @Input() alt: string = "Bookmark Logo";
+  @Input() src: string = "";
+  @Input() alt: string = ""
+  @Input() logoClass: string = ""
 }
