@@ -73,7 +73,6 @@
   }
 }
 
-/* Otros estilos... */
 .mobile-menu-close {
   background: none;
   border: none;
@@ -91,12 +90,12 @@
 }
 
 .mobile-login-btn {
-  background: none;
-  border: 2px solid white;
+  background: hsl(231, 69%, 60%);
+  border: 1px solid white;
   color: white;
   padding: 15px 0;
   border-radius: 6px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -105,4 +104,8 @@
   margin-bottom: 60px;
   transition: all 0.3s ease;
   width: 100%;
+
+   display: block;
+   text-align: center;
+ 
 }
