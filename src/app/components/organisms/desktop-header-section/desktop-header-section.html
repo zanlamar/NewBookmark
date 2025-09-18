@@ -20,6 +20,8 @@
 <app-mobile-nav
   [isOpen]="isMobileNavOpen"
   [navLinks]="navLinks"
+  [socialLinks]="socialLinks"
   (closeClick)="onMobileMenuClose()"
-  (loginClick)="onLoginClick()">
+  (loginClick)="onLoginClick()"
+  (socialClick)="onSocialClick($event)">
 </app-mobile-nav>

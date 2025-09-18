@@ -1,28 +1,12 @@
-<!-- <nav>
-  <ul class="nav-menu">
-    @for (link of navLinks; track link.href) {
-      <li>
-        <a [href]="link.href">{{ link.text }}</a>
-      </li>
-    }
-
-    <app-button
-      variant="red"
-      (onClick)="onLoginClick()">
-      Login
-    </app-button>
-    
-  </ul>
-</nav> -->
-
 <div class="mobile-menu-overlay" [class.active]="isOpen">
   <div class="mobile-menu-header">
     <div class="mobile-menu-logo">
       <app-logo 
-        src="mobileLogo"
-        alt="logoAlt">
+        src="assets/logos/logo-negative-mini.png"
+        alt="Mobile Bookmark">
       </app-logo>
     </div>
+
     <app-button 
       variant="close"
       text="✕"

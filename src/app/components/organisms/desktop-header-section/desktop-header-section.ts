@@ -3,6 +3,7 @@ import { Logo } from "../../atoms/logo/logo";
 import { Button } from "../../atoms/button/button";
 import { DesktopNav, NavLink } from "../../molecules/desktop-nav/desktop-nav";
 import { MobileNav } from "../../molecules/mobile-nav/mobile-nav";
+import { SocialLink } from '../../molecules/mobile-nav/mobile-nav';
 
 
 @Component({
@@ -23,18 +24,18 @@ export class DesktopHeaderSection {
     { text: 'Contact', href: '#contact' }
   ];
 
-  // socialLinks: SocialLink[] = [
-  //   {
-  //     platform: 'facebook',
-  //     iconSrc: 'assets/images/icon-facebook.svg',
-  //     altText: 'Facebook'
-  //   },
-  //   {
-  //     platform: 'twitter',
-  //     iconSrc: 'assets/images/icon-twitter.svg',
-  //     altText: 'Twitter'
-  //   }
-  // ];
+  socialLinks: SocialLink[] = [
+  {
+      platform: 'facebook',
+      iconSrc: 'assets/icons/icon-facebook.svg',
+      altText: 'Facebook'
+    },
+    {
+      platform: 'twitter',
+      iconSrc: 'assets/icons/icon-twitter.svg',
+      altText: 'Twitter'
+    }
+  ];
 
   isMobileNavOpen: boolean = false;
 
@@ -53,5 +54,9 @@ export class DesktopHeaderSection {
   onMobileMenuClose(): void {
     this.isMobileNavOpen = false;
   }
+
+  onSocialClick(platform: string): void {
+  console.log(`${platform} clicked`);
+}
   
 }
