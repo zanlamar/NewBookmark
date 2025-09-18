@@ -10,6 +10,7 @@
   align-items: center;
   gap: 2rem;
   padding: 0 8rem;
+  margin: 0 auto;
 }
 
 .hero-buttons {
@@ -28,7 +29,7 @@
   .hero-grid {
     grid-template-columns: 1fr;
     text-align: center;
-    padding: 0;
+    padding: 0 1.5rem
   }
 
   .hero-image {
@@ -46,4 +47,7 @@
   padding: 0.9rem 0.7rem;
   } 
 
+  .container {
+    padding: 0 1.5rem;
+  }
 }

@@ -1,6 +1,4 @@
-/* nav {
-  
-} */
+
 
 @media screen and (max-width: 768px) {
   nav {
@@ -30,3 +28,4 @@
 .nav-menu a:hover {
   color: hsl(0, 94%, 66%);
 }
+
