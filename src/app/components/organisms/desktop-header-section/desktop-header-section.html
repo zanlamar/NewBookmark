@@ -9,11 +9,17 @@
         variant="hamburger"
         text="☰"
         (onClick)="onHamburgerClick()">
-        ☰
     </app-button>
     
     <app-desktop-nav
-        [navLinks]="navLinks">
+        [navLinks]="navLinks"
+        (loginClick)="onLoginClick()">
     </app-desktop-nav>
-    
 </div>
+
+<app-mobile-nav
+  [isOpen]="isMobileNavOpen"
+  [navLinks]="navLinks"
+  (closeClick)="onMobileMenuClose()"
+  (loginClick)="onLoginClick()">
+</app-mobile-nav>
