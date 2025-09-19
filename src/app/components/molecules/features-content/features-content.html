@@ -1,0 +1,26 @@
+<div class="feature-content">
+  <div class="feature-image">
+    <app-featureimage 
+      [src]="imageSrc"
+      [alt]="imageAlt">
+    </app-featureimage>
+  </div>
+  
+  <div class="feature-text">
+    
+    <app-heading
+      [level]="2" 
+      [text]="title">
+    </app-heading>
+    
+    <app-text 
+      [content]="description">
+    </app-text>
+    
+    <app-button class="btn btn-blue btn-none"
+        variant="blue"
+        [href]="buttonHref"
+        [text]="buttonText">
+    </app-button>
+  </div>
+ </div>

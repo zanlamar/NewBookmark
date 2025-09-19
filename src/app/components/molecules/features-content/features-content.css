@@ -1,0 +1,44 @@
+.feature-content {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  justify-content: center;
+}
+
+.feature-text {
+  margin: 0 1em;
+  width: 33em;
+}
+
+.feature-text p {
+  margin: 1em 0;
+}
+
+.h2 {
+text-align: center;
+}
+
+.feature-image {
+margin-left: 4em;
+margin: 0 4%;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .feature-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .feature-text {
+    margin: 0px 1em;
+    margin-top: 3em;
+    padding: 0 5em;
+  }
+
+  .btn-none {
+    display: none;
+  }
+}

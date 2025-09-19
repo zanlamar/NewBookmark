@@ -1,0 +1,42 @@
+<div class="mobile-menu-overlay" [class.active]="isOpen">
+  <div class="mobile-menu-header">
+    <div class="mobile-menu-logo">
+      <app-logo 
+        src="assets/logos/logo-negative-mini.png"
+        alt="Mobile Bookmark">
+      </app-logo>
+    </div>
+
+    <app-button 
+      variant="close"
+      text="✕"
+      (onClick)="onCloseClick()">
+    </app-button>
+  </div>
+  
+  <div class="mobile-menu-content">
+    <ul class="mobile-menu-nav">
+      @for (link of navLinks; track link.href) {
+        <li>
+          <a [href]="link.href">{{ link.text }}</a>
+        </li>
+      }
+    </ul>
+    <app-button 
+      variant="mobile-login"
+      text="LOGIN"
+      (onClick)="onLoginClick()">
+    </app-button>
+  </div>
+  
+  <div class="mobile-menu-footer">
+    <div class="mobile-social-links">
+      @for (social of socialLinks; track social.platform) {
+        <img 
+          [src]="social.iconSrc" 
+          [alt]="social.altText"
+          (click)="onSocialClick(social.platform)" />
+      }
+    </div>
+  </div>
+ </div>

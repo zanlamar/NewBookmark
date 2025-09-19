@@ -5,8 +5,7 @@ import { Component, Input } from '@angular/core';
   imports: [],
   templateUrl: './heading.html',
   styleUrl: './heading.css',
-  standalone: true
-
+  standalone: true,
 })
 export class Heading {
   @Input() level: 1 | 2 | 3 | 4 | 5 | 6 = 1;
