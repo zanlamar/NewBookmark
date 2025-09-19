@@ -1,0 +1,47 @@
+.extension {
+    padding: 4rem 10rem;
+    text-align: center;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.h2 {
+    font-size: 2.1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.extension-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 6rem;
+}
+
+.ladder {
+transform: translateY(-45px);
+}
+
+.ladder-inv {
+transform: translateY(45px);
+}
+
+
+@media screen and (max-width: 768px) {
+    .extension {
+        padding: 4rem 0;
+    }
+
+    .extension-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .subtitle {
+        margin-top: 1em;
+    }
+}
