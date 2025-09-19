@@ -1,29 +1,36 @@
 <section class="extension">
-      <div class="container">
+    <div class="container">
         <h2>Download the extension</h2>
         <p class="subtitle">We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.</p>
-
+        
         <div class="extension-grid">
-            <app-card 
-                logo = "assets/logos/logo-chrome.svg"
-                browser = "Chrome"
-                version = "62"
-                href = "#">
-            </app-card>
+            <div class="card ladder">
+                <app-card 
+                    logo = "assets/logos/logo-chrome.svg"
+                    browser = "Chrome"
+                    versionNumber = '62'
+                    href = "#"
+                    alt = "Chrome Logo">
+                </app-card>
+            </div>
 
             <app-card 
                 logo = "assets/logos/logo-firefox.svg"
                 browser = "Firefox"
-                version = "55"
-                href = "#">
+                versionNumber = '55'
+                href = "#"
+                alt = "Firefox Logo">
             </app-card>
 
-            <app-card 
-                logo = "assets/logos/logo-opera.svg"
-                browser = "Opera"
-                version = "46"
-                href = "#">
-            </app-card>
+            <div class="card ladder-inv">
+                <app-card 
+                    logo = "assets/logos/logo-opera.svg"
+                    browser = "Opera"
+                    versionNumber = '46'
+                    href = "#"
+                    alt = "Opera Logo">
+                </app-card>
+            </div>
         </div>
     </div>
 </section>

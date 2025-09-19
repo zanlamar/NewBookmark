@@ -9,8 +9,9 @@ import { Button } from '../../atoms/button/button';
 })
 export class Card {
   @Input() logo: string = '';
+  @Input() alt: string = '';
   @Input() browser: string = '';
   @Input() href: string = '';
-  @Input() version: string = '#';
+  @Input() versionNumber: string = '#';
 
 }

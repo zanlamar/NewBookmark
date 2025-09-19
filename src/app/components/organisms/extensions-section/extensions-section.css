@@ -22,7 +22,13 @@
     margin-top: 6rem;
 }
 
+.ladder {
+transform: translateY(-45px);
+}
 
+.ladder-inv {
+transform: translateY(45px);
+}
 
 
 @media screen and (max-width: 768px) {
