@@ -9,6 +9,14 @@
     padding: 2rem;
 }
 
+.subtitle {
+    margin: 1em auto 3.5em auto;  
+    max-width: 600px;            
+    padding: 0 1rem;   
+    padding-bottom: 3rem;  
+    text-align: center;        
+}
+
 .h2 {
     font-size: 2.1rem;
     font-weight: bold;
@@ -23,11 +31,11 @@
 }
 
 .ladder {
-transform: translateY(-45px);
+    transform: translateY(-45px);
 }
 
 .ladder-inv {
-transform: translateY(45px);
+    transform: translateY(45px);
 }
 
 
