@@ -1,0 +1,29 @@
+<header class="header">
+    <div class="container nav-container">
+        <app-logo
+            [src]="logoSrc"
+            [alt]="logoAlt"
+            logoClass="logo">
+        </app-logo>
+        
+        <app-button
+            variant="hamburger"
+            text="☰"
+            (onClick)="onHamburgerClick()">
+        </app-button>
+        
+        <app-desktop-nav
+            [navLinks]="navLinks"
+            (loginClick)="onLoginClick()">
+        </app-desktop-nav>
+    </div>
+
+    <app-mobile-nav
+    [isOpen]="isMobileNavOpen"
+    [navLinks]="navLinks"
+    [socialLinks]="socialLinks"
+    (closeClick)="onMobileMenuClose()"
+    (loginClick)="onLoginClick()"
+    (socialClick)="onSocialClick($event)">
+    </app-mobile-nav>
+</header>

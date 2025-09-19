@@ -1,4 +1,22 @@
-<a [href]="href" 
+<!-- <a [href]="href" 
    [class]="'btn btn-' + variant + (additionalClasses ? ' ' + additionalClasses : '')">
   {{text}}
-</a>
+</a> -->
+
+@if (href) {
+  <a 
+    [href]="href" 
+    [class]="buttonClasses" 
+    (click)="onButtonClick($event)">
+    {{text}}
+  </a>
+  
+} @else {
+  <button 
+    [class]="buttonClasses"
+    [type]="type"
+    [disabled]="disabled"
+    (click)="onButtonClick($event)">
+    {{text}}
+  </button>
+}

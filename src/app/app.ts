@@ -3,11 +3,13 @@ import { Component, signal } from '@angular/core';
 
 import { FeaturesSection } from "./components/organisms/features-section/features-section";
 import { HerobannerSection } from './components/organisms/herobanner-section/herobanner-section';
+import { DesktopHeaderSection } from "./components/organisms/desktop-header-section/desktop-header-section";
+import { ExtensionsSection } from "./components/organisms/extensions-section/extensions-section";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [FeaturesSection, HerobannerSection],
+  imports: [FeaturesSection, HerobannerSection, DesktopHeaderSection, ExtensionsSection],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
