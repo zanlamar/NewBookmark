@@ -1,0 +1,14 @@
+p {    
+    color: rgb(145, 148, 161);
+}
+
+.feature-text p {
+    margin: 1em 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .hero-text p {
+        margin-top: 1rem;
+    }
+}
