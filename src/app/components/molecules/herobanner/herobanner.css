@@ -30,9 +30,5 @@ gap: 1rem;
 @media screen and (max-width: 768px) {
   .hero-text {
     padding: 1em 1em;
-    
-    p {
-      margin-top: 1rem;
     }
-  }
 }

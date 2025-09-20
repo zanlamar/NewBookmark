@@ -38,6 +38,11 @@
     transform: translateY(45px);
 }
 
+p {    
+    color: rgb(145, 148, 161);
+}
+
+
 
 @media screen and (max-width: 768px) {
     .extension {

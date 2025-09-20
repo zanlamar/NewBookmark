@@ -19,17 +19,12 @@
   gap: 1rem;
 }
 
-
-/* PENDING TO RESOLVE
- .hero-image {
-  order: -1; 
-} */
-
 @media screen and (max-width: 768px) {
   .hero-grid {
     grid-template-columns: 1fr;
     text-align: center;
-    padding: 0 1.5rem
+    padding: 0 1.5rem;
+    justify-content: center;
   }
 
   .hero-image {
@@ -37,9 +32,9 @@
   }
 
   .hero-buttons {
-  font-size: 1.1rem;
-  margin-top: 2rem;
-  justify-content: center;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    justify-content: center;
   }
 
   .hero-buttons .btn {
@@ -50,4 +45,5 @@
   .container {
     padding: 0 1.5rem;
   }
+
 }
