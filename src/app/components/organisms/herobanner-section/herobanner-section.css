@@ -29,7 +29,6 @@
 
   .hero-image {
     order: -1; 
-    max-width: fit-content
   }
 
   .hero-buttons {
@@ -46,4 +45,5 @@
   .container {
     padding: 0 1.5rem;
   }
+
 }
