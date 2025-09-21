@@ -5,11 +5,12 @@ import { FeaturesSection } from "./components/organisms/features-section/feature
 import { HerobannerSection } from './components/organisms/herobanner-section/herobanner-section';
 import { DesktopHeaderSection } from "./components/organisms/desktop-header-section/desktop-header-section";
 import { ExtensionsSection } from "./components/organisms/extensions-section/extensions-section";
+import { FooterSection } from './components/organisms/footer-section/footer-section';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [FeaturesSection, HerobannerSection, DesktopHeaderSection, ExtensionsSection],
+  imports: [FeaturesSection, HerobannerSection, DesktopHeaderSection, ExtensionsSection, FooterSection],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
