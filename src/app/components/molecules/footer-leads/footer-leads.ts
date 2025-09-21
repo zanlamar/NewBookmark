@@ -8,6 +8,7 @@ import { Button } from '../../atoms/button/button';
   styleUrl: './footer-leads.css',
   standalone: true,
 })
+
 export class FooterLeads {
 
 }

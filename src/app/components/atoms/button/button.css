@@ -43,7 +43,7 @@
   font-size: 1.1rem;
   text-transform: uppercase;
   font-weight: 500;
-  width: 120px;
+  /* width: 120px; */
   border: 1px solid transparent;
   text-align: center;
 }

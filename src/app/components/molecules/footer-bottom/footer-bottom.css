@@ -49,6 +49,11 @@
     cursor: pointer;
 }
 
+.footer-logo {
+  width: 150px;
+  height: auto;
+}
+
 
 @media screen and (max-width: 768px) {
     .footer-bottom {
@@ -68,4 +73,9 @@
         flex-direction: column;
         gap: 1em;
     }
+
+    .footer-logo {
+        width: 100px;
+    }
+
 }
