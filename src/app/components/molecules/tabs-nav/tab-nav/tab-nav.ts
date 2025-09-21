@@ -13,11 +13,12 @@ interface TabData {
   styleUrl: './tab-nav.css',
   standalone: true
 })
-export class TabNav {
-  @Input() tabs: TabData[] = [];
-  @Input() activeTabId: string = '';
-  @Output() tabChange = new EventEmitter<string>();
-  onTabClick(tabId: string): void {
-    this.tabChange.emit(tabId)
-}
+
+  export class TabNav {
+    @Input() tabs: TabData[] = [];
+    @Input() activeTabId: string = '';
+    @Output() tabChange = new EventEmitter<string>();
+    onTabClick(tabId: string): void {
+      this.tabChange.emit(tabId)
+  }
 }

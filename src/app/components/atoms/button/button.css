@@ -43,7 +43,7 @@
   font-size: 1.1rem;
   text-transform: uppercase;
   font-weight: 500;
-  width: 120px;
+  /* width: 120px; */
   border: 1px solid transparent;
   text-align: center;
 }
@@ -105,7 +105,7 @@
   transition: all 0.3s ease;
   width: 100%;
 
-   display: block;
-   text-align: center;
+  display: block;
+  text-align: center;
  
 }

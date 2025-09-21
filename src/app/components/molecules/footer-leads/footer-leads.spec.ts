@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Socialicon } from './socialicon';
+import { FooterLeads } from './footer-leads';
 
-describe('Socialicon', () => {
-  let component: Socialicon;
-  let fixture: ComponentFixture<Socialicon>;
+describe('FooterLeads', () => {
+  let component: FooterLeads;
+  let fixture: ComponentFixture<FooterLeads>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Socialicon]
+      imports: [FooterLeads]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Socialicon);
+    fixture = TestBed.createComponent(FooterLeads);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

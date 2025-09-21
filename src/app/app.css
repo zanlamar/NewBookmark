@@ -4,15 +4,8 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: Rubik, sans-serif;
-  color: rgb(37, 43, 70);
-  line-height: 1.6;
-  scroll-behavior: smooth;
-}
-
-.container {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 2rem;
+@media screen and (max-width: 768px) {
+  main {
+    margin-top: 7rem;
+  };
 }
