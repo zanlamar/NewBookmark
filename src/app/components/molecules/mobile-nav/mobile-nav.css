@@ -1,4 +1,3 @@
-@media screen and (max-width: 768px) { 
 
   .mobile-menu-overlay {
     position: fixed;
@@ -94,4 +93,3 @@
     height: 24px;
     filter: brightness(0) invert(1);
   }
-}
