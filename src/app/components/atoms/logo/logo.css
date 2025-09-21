@@ -1,4 +1,6 @@
 .mobile-menu-logo {
  display: flex;
- align-items: center
+ align-items: center;
+ max-width: 40px;
+ 
 }
