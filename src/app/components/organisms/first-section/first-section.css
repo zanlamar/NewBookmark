@@ -40,6 +40,8 @@
 
 .illustration-class {
     width: 100%;
+    min-width: 400px;
+    overflow: hidden;
 }
 
 

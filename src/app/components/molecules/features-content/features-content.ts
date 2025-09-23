@@ -7,7 +7,7 @@ import { Subtitle } from "../../atoms/subtitle/subtitle";
 
 @Component({
   selector: 'app-features-content',
-  imports: [Featureimage, Heading, Text, Button, Subtitle],
+  imports: [Featureimage, Heading, Text, Button],
   templateUrl: './features-content.html',
   styleUrl: './features-content.css',
   standalone: true
