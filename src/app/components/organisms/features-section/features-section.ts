@@ -1,7 +1,8 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { FeaturesHeader } from '../../molecules/features-header/features-header';
 import { TabNav } from '../../molecules/tabs-nav/tab-nav/tab-nav';
 import { FeaturesContent } from '../../molecules/features-content/features-content';
+import { FeaturesHeader } from '../../molecules/features-header/features-header';
+import { Heading } from "../../atoms/heading/heading";
 
 interface FeatureTabData {
   id: string;
@@ -16,7 +17,7 @@ interface FeatureTabData {
 
 @Component({
   selector: 'app-features-section',
-  imports: [ FeaturesHeader, TabNav, FeaturesContent],
+  imports: [TabNav, FeaturesContent, FeaturesHeader],
   templateUrl: './features-section.html',
   styleUrl: './features-section.css',
   standalone: true
