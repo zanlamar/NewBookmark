@@ -1,14 +1,10 @@
 
 # ITA SPRINT 5: NewBookmark
 
-> [!NOTE]
-> This project is currently under construction!
-
 ## 📄 Description
 
 Fifth sprint of the **IT Academy Bootcamp**, consisting on recreating the first sprint website with **Angular**, applying the  **Atomic Design methodology**.
 
- 
 
 
 ## 🎯 Objectives
@@ -63,6 +59,20 @@ ng serve
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
 
+
+## 🔀 Git Flow
+
+Although this project was developed individually, I implemented a (beautiful) structured Git workflow to maintain organized pull requests and ensure the codebase can easily scale to a multi-developer team environment with minimal friction when introducing changes. 
+This project follows a structured Git workflow with the following branch structure:
+
+- **`main`** - Production-ready code and releases
+- **`develop`** - Integration branch for ongoing development
+- **`feature/*`** - Individual feature branches for each project feature
+- **`debug/*`** - Branches dedicated to debugging and bug fixes
+- **`refactor/*`** - Branches for code refactoring and improvements
+
+
+
 ### Building
 
 To build the project run:
@@ -82,18 +92,15 @@ ng test
 ```
 
 
-
 ---
----
-
 
 # 🚧 Pending improvements
-- More website features to be implemented
-- Mobile layout to be improved
+- Last website features to be implemented
+- Some mobile layout to be improved
 
 
 # ⭐ Highlights
-- I feel this sprint wasn't just about Angular, it was a great way to learn how to better structure our projects from the beginnings and practice eeee everything.
--  Progress vs. sprint 1.
+- I feel this sprint wasn't just about Angular, it was a great way to learn how to better structure our projects from the beginnings and practice eeeeeverything.
+- Progress vs. sprint 1.
 - Gitflow branches and pull requests on point.
-- I see great potential with Angular!
+- I see great potential with Angular.
