@@ -1,5 +1,4 @@
 import { Component, signal } from '@angular/core';
-// import { RouterOutlet } from '@angular/router';
 
 import { FeaturesSection } from "./components/organisms/features-section/features-section";
 import { DesktopHeaderSection } from "./components/organisms/desktop-header-section/desktop-header-section";
