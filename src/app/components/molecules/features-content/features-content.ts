@@ -3,10 +3,11 @@ import { Featureimage } from '../../atoms/featureimage/featureimage';
 import { Heading } from '../../atoms/heading/heading';
 import { Button } from '../../atoms/button/button';
 import { Text } from '../../atoms/text/text';
+import { Subtitle } from "../../atoms/subtitle/subtitle";
 
 @Component({
   selector: 'app-features-content',
-  imports: [Featureimage, Heading, Text, Button,],
+  imports: [Featureimage, Heading, Text, Button, Subtitle],
   templateUrl: './features-content.html',
   styleUrl: './features-content.css',
   standalone: true
