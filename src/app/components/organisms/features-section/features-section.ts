@@ -17,7 +17,7 @@ interface FeatureTabData {
 
 @Component({
   selector: 'app-features-section',
-  imports: [TabNav, FeaturesContent, FeaturesHeader, Heading],
+  imports: [TabNav, FeaturesContent, FeaturesHeader],
   templateUrl: './features-section.html',
   styleUrl: './features-section.css',
   standalone: true
