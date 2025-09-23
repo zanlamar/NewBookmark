@@ -11,11 +11,10 @@ box-sizing: border-box;
 }
  
 .nav-container {
- display: flex;
- justify-content: space-between;
- align-items: center;
- background-color: white;
- 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
 }
 
 .hamburger {
