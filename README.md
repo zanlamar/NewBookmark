@@ -67,9 +67,9 @@ This project follows a structured Git workflow with the following branch structu
 
 - **`main`** - Production-ready code and releases
 - **`develop`** - Integration branch for ongoing development
-- **`feature/*`** - Individual feature branches for each project feature
-- **`debug/*`** - Branches dedicated to debugging and bug fixes
-- **`refactor/*`** - Branches for code refactoring and improvements
+- **`feature*`** - Individual feature branches for each project feature
+- **`debug*`** - Branches dedicated to debugging and bug fixes
+- **`refactor`** - Branches for code refactoring and improvements
 
 
 
