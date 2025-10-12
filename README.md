@@ -3,8 +3,9 @@
 
 ## 📄 Description
 
-Fifth sprint of the **IT Academy Bootcamp**, consisting on recreating the first sprint website with **Angular**, applying the  **Atomic Design methodology**.
-
+Angular Migration — Replica of Initial Website (IT Academy Bootcamp, Sprint 5)
+**Technological migration** of a previous website from static HTML/CSS to Angular, applying the **Atomic Design methodology**.
+Focused on creating a scalable component-based architecture and improving design consistency.
 
 
 ## 🎯 Objectives
